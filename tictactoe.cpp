@@ -86,7 +86,7 @@ bool checkWin(int player, int board[3][3]) {//checking for all possible win cond
 		drawBoard(board);
 		return true;
 	}
-	if(board[0][2] == player && board[1][1] == player && board[0][2] == player) {
+	if(board[0][2] == player && board[1][1] == player && board[2][0] == player) {
 		drawBoard(board);
 		return true;
 	}
